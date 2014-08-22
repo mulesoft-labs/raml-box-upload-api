@@ -46,9 +46,9 @@ securedBy: [ oauth_2_0 ]
               type: integer
               required: true
             content_created_at: 
-              description: The time this file was created on the user’s machine. See here for more details.
+              description: The time this file was created on the user's machine. See here for more details.
             content_modified_at: 
-              description: The time this file was last modified on the user’s machine. See here for more details.
+              description: The time this file was last modified on the user's machine. See here for more details.
       responses: 
         200: 
           body: 
@@ -76,7 +76,7 @@ securedBy: [ oauth_2_0 ]
         may occur due to bad filenames and invalid file IDs.
       headers: 
         If-Match: 
-          description: This is in the ‘etag’ field of the file object.
+          description: This is in the 'etag' field of the file object.
       body: 
         multipart/form-data: 
           formParameters: 
@@ -85,7 +85,7 @@ securedBy: [ oauth_2_0 ]
               type: file
               required: true
             content_modified_at: 
-              description: The time this file was last modified on the user’s machine. See here for more details.
+              description: The time this file was last modified on the users machine. See here for more details.
       responses: 
         200: 
           body: 
